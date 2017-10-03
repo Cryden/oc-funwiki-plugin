@@ -1,0 +1,4 @@
+title: Genres
+modelClass: Crydesign\FunWiki\Models\Genres
+toolbar:
+    buttons: reorder_toolbar

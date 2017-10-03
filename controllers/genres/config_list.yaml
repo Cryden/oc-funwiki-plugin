@@ -1,0 +1,11 @@
+title: Genres
+modelClass: Crydesign\FunWiki\Models\Genres
+list: $/crydesign/funwiki/models/genres/columns.yaml
+recordUrl: 'crydesign/funwiki/genres/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

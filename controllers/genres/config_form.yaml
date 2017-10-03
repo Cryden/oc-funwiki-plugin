@@ -1,0 +1,10 @@
+name: Genres
+form: $/crydesign/funwiki/models/genres/fields.yaml
+modelClass: Crydesign\FunWiki\Models\Genres
+defaultRedirect: crydesign/funwiki/genres
+create:
+    redirect: 'crydesign/funwiki/genres/update/:id'
+    redirectClose: crydesign/funwiki/genres
+update:
+    redirect: crydesign/funwiki/genres
+    redirectClose: crydesign/funwiki/genres

@@ -1,0 +1,4 @@
+title: News
+modelClass: Crydesign\FunWiki\Models\News
+toolbar:
+    buttons: reorder_toolbar

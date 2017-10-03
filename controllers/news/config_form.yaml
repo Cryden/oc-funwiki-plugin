@@ -1,0 +1,10 @@
+name: News
+form: $/crydesign/funwiki/models/news/fields.yaml
+modelClass: Crydesign\FunWiki\Models\News
+defaultRedirect: crydesign/funwiki/news
+create:
+    redirect: 'crydesign/funwiki/news/update/:id'
+    redirectClose: crydesign/funwiki/news
+update:
+    redirect: crydesign/funwiki/news
+    redirectClose: crydesign/funwiki/news

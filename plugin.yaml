@@ -1,0 +1,24 @@
+plugin:
+    name: 'crydesign.funwiki::lang.plugin.name'
+    description: 'crydesign.funwiki::lang.plugin.description'
+    author: CRYDEsigN
+    icon: oc-icon-certificate
+    homepage: ''
+navigation:
+    fun-wiki:
+        label: 'crydesign.funwiki::lang.plugin.name'
+        url: crydesign/funwiki/news
+        icon: icon-adn
+        sideMenu:
+            side-menu-item:
+                label: News
+                url: crydesign/funwiki/news
+                icon: icon-sitemap
+            news-type:
+                label: 'News Type'
+                url: crydesign/funwiki/newstype
+                icon: icon-sitemap
+            genres:
+                label: Жанры
+                url: crydesign/funwiki/genres
+                icon: icon-tags

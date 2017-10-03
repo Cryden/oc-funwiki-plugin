@@ -1,0 +1,35 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table crydesign_funwiki_news'
+    - builder_table_create_crydesign_funwiki_news.php
+1.0.3:
+    - 'Updated table crydesign_funwiki_news'
+    - builder_table_update_crydesign_funwiki_news.php
+1.0.4:
+    - 'Created table crydesign_funwiki_news_type'
+    - builder_table_create_crydesign_funwiki_news_type.php
+1.0.5:
+    - 'Updated table crydesign_funwiki_news'
+    - builder_table_update_crydesign_funwiki_news_2.php
+1.0.6:
+    - 'Updated table crydesign_funwiki_news'
+    - builder_table_update_crydesign_funwiki_news_3.php
+1.0.7:
+    - 'Created table crydesign_funwiki_genres'
+    - builder_table_create_crydesign_funwiki_genres.php
+1.0.8:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres.php
+1.0.9:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_2.php
+1.0.10:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_3.php
+1.0.11:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_4.php
+1.0.12:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_5.php

@@ -1,0 +1,10 @@
+name: NewsType
+form: $/crydesign/funwiki/models/newstype/fields.yaml
+modelClass: Crydesign\FunWiki\Models\NewsType
+defaultRedirect: crydesign/funwiki/newstype
+create:
+    redirect: 'crydesign/funwiki/newstype/update/:id'
+    redirectClose: crydesign/funwiki/newstype
+update:
+    redirect: crydesign/funwiki/newstype
+    redirectClose: crydesign/funwiki/newstype

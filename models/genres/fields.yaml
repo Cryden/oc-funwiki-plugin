@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: Название
+        span: left
+        dependsOn: {  }
+        type: text
+        commentAbove: 'Название жанра'
+    slug:
+        label: Представление
+        span: auto
+        disabled: 0
+        dependsOn: {  }
+        trigger:
+            action: empty
+            field: checkbox
+            condition: ''
+        preset:
+            field: title
+            type: slug
+        type: text
+        commentAbove: 'Slug there'
+    icon:
+        label: Ярлык
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+        commentAbove: 'Добавить ярлык'
+    description:
+        label: Описание
+        span: full
+        size: large
+        oc.commentPosition: ''
+        type: richeditor

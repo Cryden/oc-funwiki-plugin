@@ -1,0 +1,10 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    type:
+        label: Type
+        options: newsTypes
+        span: auto
+        type: dropdown
