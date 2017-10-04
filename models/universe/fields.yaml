@@ -1,0 +1,40 @@
+fields:
+    name:
+        label: Название
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: right
+        preset:
+            field: name
+            type: slug
+        type: text
+    logo:
+        label: Логотип
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    cover:
+        label: Обложка
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: Описание
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor

@@ -1,0 +1,10 @@
+name: Books
+form: $/crydesign/funwiki/models/books/fields.yaml
+modelClass: Crydesign\FunWiki\Models\Books
+defaultRedirect: crydesign/funwiki/books
+create:
+    redirect: 'crydesign/funwiki/books/update/:id'
+    redirectClose: crydesign/funwiki/books
+update:
+    redirect: crydesign/funwiki/books
+    redirectClose: crydesign/funwiki/books

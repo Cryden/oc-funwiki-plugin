@@ -1,0 +1,4 @@
+title: Universes
+modelClass: Crydesign\FunWiki\Models\Universe
+toolbar:
+    buttons: reorder_toolbar

@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Genres extends Model
+class UniversesBook extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -24,18 +24,5 @@ class Genres extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'crydesign_funwiki_genres';
-
-    /**
-     * @var string Add icon file. 
-     */
-
-    public $attachOne = [
-        'label' => 'System\Models\File'
-    ];
-
-    public function getIconAttribute()
-    {
-
-    }
+    public $table = 'crydesign_funwiki_universes_book';
 }

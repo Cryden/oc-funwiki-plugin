@@ -1,0 +1,7 @@
+<?php 
+if (isset($record->label->path)) {
+    echo '<img src="'.$record->label->getThumb(50,50).'" >';
+} else {
+    echo '-';
+};
+?>

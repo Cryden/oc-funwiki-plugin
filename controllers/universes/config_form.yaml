@@ -1,0 +1,10 @@
+name: Universes
+form: $/crydesign/funwiki/models/universe/fields.yaml
+modelClass: Crydesign\FunWiki\Models\Universe
+defaultRedirect: crydesign/funwiki/universes
+create:
+    redirect: 'crydesign/funwiki/universes/update/:id'
+    redirectClose: crydesign/funwiki/universes
+update:
+    redirect: crydesign/funwiki/universes
+    redirectClose: crydesign/funwiki/universes

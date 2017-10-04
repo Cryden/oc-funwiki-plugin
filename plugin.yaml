@@ -18,7 +18,15 @@ navigation:
                 label: 'News Type'
                 url: crydesign/funwiki/newstype
                 icon: icon-sitemap
+            universes:
+                label: Вселенные
+                url: crydesign/funwiki/universes
+                icon: icon-renren
             genres:
                 label: Жанры
                 url: crydesign/funwiki/genres
                 icon: icon-tags
+            book:
+                label: Книги
+                url: crydesign/funwiki/books
+                icon: icon-book

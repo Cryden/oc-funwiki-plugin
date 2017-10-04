@@ -33,3 +33,27 @@
 1.0.12:
     - 'Updated table crydesign_funwiki_genres'
     - builder_table_update_crydesign_funwiki_genres_5.php
+1.0.13:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_6.php
+1.0.14:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_7.php
+1.0.15:
+    - 'Created table crydesign_funwiki_universes'
+    - builder_table_create_crydesign_funwiki_universes.php
+1.0.16:
+    - 'Updated table crydesign_funwiki_universes'
+    - builder_table_update_crydesign_funwiki_universes.php
+1.0.17:
+    - 'Updated table crydesign_funwiki_universes'
+    - builder_table_update_crydesign_funwiki_universes_2.php
+1.0.18:
+    - 'Created table crydesign_funwiki_book'
+    - builder_table_create_crydesign_funwiki_book.php
+1.0.19:
+    - 'Created table crydesign_funwiki_universes_book'
+    - builder_table_create_crydesign_funwiki_universes_book.php
+1.0.20:
+    - 'Updated table crydesign_funwiki_book'
+    - builder_table_update_crydesign_funwiki_book.php

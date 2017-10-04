@@ -5,12 +5,6 @@ columns:
     title:
         label: title
         type: text
-    description:
-        label: description
-    label:
-        label: icon
-        type: partial
-        path: icon
     slug:
         label: slug
         type: text

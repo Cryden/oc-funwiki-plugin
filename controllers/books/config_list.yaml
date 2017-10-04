@@ -1,0 +1,11 @@
+list: $/crydesign/funwiki/models/books/columns.yaml
+modelClass: Crydesign\FunWiki\Models\Books
+title: Books
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'crydesign/funwiki/books/update/:id'

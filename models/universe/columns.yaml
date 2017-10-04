@@ -2,15 +2,14 @@ columns:
     id:
         label: id
         type: number
-    title:
-        label: title
+    name:
+        label: name
         type: text
+        searchable: true
+        sortable: true
     description:
         label: description
-    label:
-        label: icon
-        type: partial
-        path: icon
+        type: text
     slug:
         label: slug
         type: text
