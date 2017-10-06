@@ -1,6 +1,8 @@
 <?php namespace Crydesign\FunWiki\Models;
 
 use Model;
+use BackendAuth;
+use Backend\Models\User;
 
 /**
  * Model
@@ -8,7 +10,7 @@ use Model;
 class News extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-    
+
     /*
      * Validation
      */
@@ -20,8 +22,15 @@ class News extends Model
      */
     public $table = 'crydesign_funwiki_news';
 
+    //private $user = BackendAuth::getUser();
+
     public function newsTypes($fieldName, $value, $formData)
     {
         return ['published' => 'Published'];
     }
+
+    public $belongsTo = [ 
+        'author' => ['Backend\Models\User','key'=>'user_id'] 
+    ];
+
 }

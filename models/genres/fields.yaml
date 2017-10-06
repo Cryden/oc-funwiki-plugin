@@ -20,15 +20,15 @@ fields:
         type: text
         commentAbove: 'Slug there'
     label:
-        label: Ярлык
-        mode: image
+        label: 'File upload'
+        span: auto
+        oc.commentPosition: ''
+        mode: file
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        span: full
         type: fileupload
-        commentAbove: 'Добавить ярлык'
     description:
         label: Описание
         span: full

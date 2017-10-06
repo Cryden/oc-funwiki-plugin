@@ -34,8 +34,4 @@ class Genres extends Model
         'label' => 'System\Models\File'
     ];
 
-    public function getIconAttribute()
-    {
-
-    }
 }

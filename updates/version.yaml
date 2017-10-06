@@ -57,3 +57,9 @@
 1.0.20:
     - 'Updated table crydesign_funwiki_book'
     - builder_table_update_crydesign_funwiki_book.php
+1.0.21:
+    - 'Updated table crydesign_funwiki_news'
+    - builder_table_update_crydesign_funwiki_news_4.php
+1.0.22:
+    - 'Updated table crydesign_funwiki_news'
+    - builder_table_update_crydesign_funwiki_news_5.php

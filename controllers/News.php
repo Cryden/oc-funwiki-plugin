@@ -16,4 +16,15 @@ class News extends Controller
         parent::__construct();
         BackendMenu::setContext('Crydesign.FunWiki', 'fun-wiki');
     }
+
+    public function formBeforeCreate($model)
+    {
+        $model->user_id = $this->user->id;
+    }
+
+    public function formBeforeUpdate($model)
+    {
+        $model->user_id = $this->user->id;
+    }
+
 }
