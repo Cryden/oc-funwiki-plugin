@@ -28,20 +28,16 @@ class Person extends Model
 
     public function scopeAuthors($query)
     {
-        //dd($query);
         return Db::table('crydesign_funwiki_persons')
             ->join('crydesign_funwiki_person_person_roles', 'crydesign_funwiki_persons.id', '=', 'crydesign_funwiki_person_person_roles.person_id')
             ->where('person_roles_id', 1);
-        //    ->get());
     }
 
     public function scopeActors($query)
     {
-        //dd($query);
         return Db::table('crydesign_funwiki_persons')
             ->join('crydesign_funwiki_person_person_roles', 'crydesign_funwiki_persons.id', '=', 'crydesign_funwiki_person_person_roles.person_id')
             ->where('person_roles_id', 2);
-        //    ->get());
     }
 
     public $attachOne = [
@@ -50,6 +46,10 @@ class Person extends Model
 
     public $attachMany = [
         'gallery' => 'System\Models\File'
+    ];
+
+    public $hasOne = [
+        'person_id' => ['Crydesign\FunWiki\Models\Person']
     ];
 
     public $belongsToMany = [

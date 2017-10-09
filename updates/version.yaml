@@ -111,3 +111,6 @@
 1.0.38:
     - 'Updated table crydesign_funwiki_person_person_pseudos'
     - builder_table_update_crydesign_funwiki_person_person_pseudos.php
+1.0.39:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_5.php

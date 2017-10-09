@@ -1,0 +1,25 @@
+columns:
+    full_name:
+        label: full_name
+        type: text
+    full_name_original:
+        label: full_name_original
+        type: text
+    slug:
+        label: slug
+        type: text
+    country:
+        label: country
+        type: text
+    birth_date:
+        label: birth_date
+        type: text
+    death_date:
+        label: death_date
+        type: text
+    biografy:
+        label: biografy
+        type: text
+    official_site:
+        label: official_site
+        type: text

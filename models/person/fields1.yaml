@@ -9,10 +9,6 @@ fields:
         oc.commentPosition: ''
         span: auto
         type: text
-    _isPseudo:
-        label: 'is pseudo'
-        span: auto
-        type: switch
     slug:
         label: Slug
         oc.commentPosition: ''
@@ -32,10 +28,6 @@ fields:
             mode: crop
             extension: auto
         span: auto
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
         type: fileupload
     gallery:
         label: Gallery
@@ -47,11 +39,7 @@ fields:
         thumbOptions:
             mode: crop
             extension: auto
-        span: auto
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked        
+        span: auto      
         type: fileupload
     birth_date:
         label: 'Birth date'
@@ -59,48 +47,28 @@ fields:
         mode: date
         span: auto
         type: datepicker
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
     death_date:
         label: 'Death date'
         oc.commentPosition: ''
         mode: date
         span: auto
         type: datepicker
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
     biografy:
         label: Biografy
         size: large
         oc.commentPosition: ''
         span: full
         type: richeditor
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
     official_site:
         label: 'Official Site'
         oc.commentPosition: ''
         span: full
         type: text
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
     country:
         label: Country
         oc.commentPosition: ''
         span: auto
         type: text
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
     personrole:
         label: 'Person Role'
         oc.commentPosition: ''
@@ -108,11 +76,4 @@ fields:
         descriptionFrom: description
         span: auto
         type: relation
-        trigger:
-            action: hide
-            field: _isPseudo
-            condition: checked
-    person_id:
-        span: full
-        path: field_person
-        type: partial
+
