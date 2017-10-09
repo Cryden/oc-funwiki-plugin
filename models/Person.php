@@ -1,7 +1,7 @@
 <?php namespace Crydesign\FunWiki\Models;
 
 use Model;
-
+use Db;
 /**
  * Model
  */
@@ -25,6 +25,24 @@ class Person extends Model
      * @var string The database table used by the model.
      */
     public $table = 'crydesign_funwiki_persons';
+
+    public function scopeAuthors($query)
+    {
+        //dd($query);
+        return Db::table('crydesign_funwiki_persons')
+            ->join('crydesign_funwiki_person_person_roles', 'crydesign_funwiki_persons.id', '=', 'crydesign_funwiki_person_person_roles.person_id')
+            ->where('person_roles_id', 1);
+        //    ->get());
+    }
+
+    public function scopeActors($query)
+    {
+        //dd($query);
+        return Db::table('crydesign_funwiki_persons')
+            ->join('crydesign_funwiki_person_person_roles', 'crydesign_funwiki_persons.id', '=', 'crydesign_funwiki_person_person_roles.person_id')
+            ->where('person_roles_id', 2);
+        //    ->get());
+    }
 
     public $attachOne = [
         'photo' => 'System\Models\File'
