@@ -26,7 +26,19 @@ navigation:
                 label: Жанры
                 url: crydesign/funwiki/genres
                 icon: icon-tags
+            moviesgenre:
+                label: 'Жанры фильмов'
+                url: crydesign/funwiki/moviesgenre
+                icon: icon-file-movie-o
             book:
                 label: Книги
                 url: crydesign/funwiki/books
                 icon: icon-book
+            personroles:
+                label: 'Person Roles'
+                url: crydesign/funwiki/personroles
+                icon: icon-users
+            persons:
+                label: Persons
+                url: crydesign/funwiki/persons
+                icon: icon-user

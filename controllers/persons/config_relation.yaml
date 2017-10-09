@@ -1,0 +1,9 @@
+personpseudo:
+    label: Pseudo
+    view:
+        list: $/crydesign/funwiki/models/personpseudo/columns.yaml
+        toolbarButtons: create|delete|add|remove
+    manage:
+        list: $/crydesign/funwiki/models/personpseudo/columns.yaml
+        form: $/crydesign/funwiki/models/personpseudo/fields.yaml
+        

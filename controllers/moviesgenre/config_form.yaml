@@ -1,0 +1,10 @@
+name: MoviesGenre
+form: $/crydesign/funwiki/models/moviesgenre/fields.yaml
+modelClass: Crydesign\FunWiki\Models\MoviesGenre
+defaultRedirect: crydesign/funwiki/moviesgenre
+create:
+    redirect: 'crydesign/funwiki/moviesgenre/update/:id'
+    redirectClose: crydesign/funwiki/moviesgenre
+update:
+    redirect: crydesign/funwiki/moviesgenre
+    redirectClose: crydesign/funwiki/moviesgenre

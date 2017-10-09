@@ -1,0 +1,7 @@
+columns:
+    full_name:
+        label: full_name
+        type: text
+    full_name_original:
+        label: full_name_original
+        type: text

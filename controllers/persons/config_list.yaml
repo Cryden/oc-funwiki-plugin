@@ -1,0 +1,11 @@
+title: Persons
+modelClass: Crydesign\FunWiki\Models\Person
+list: $/crydesign/funwiki/models/person/columns.yaml
+recordUrl: 'crydesign/funwiki/persons/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

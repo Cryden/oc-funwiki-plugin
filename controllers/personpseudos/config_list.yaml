@@ -1,0 +1,11 @@
+list: $/crydesign/funwiki/models/personpseudo/columns.yaml
+modelClass: Crydesign\FunWiki\Models\PersonPseudo
+title: PersonPseudos
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'crydesign/funwiki/personpseudos/update/:id'

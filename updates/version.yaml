@@ -66,3 +66,48 @@
 1.0.23:
     - 'Updated table crydesign_funwiki_genres'
     - builder_table_update_crydesign_funwiki_genres_8.php
+1.0.24:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_9.php
+1.0.25:
+    - 'Updated table crydesign_funwiki_universes'
+    - builder_table_update_crydesign_funwiki_universes_3.php
+1.0.26:
+    - 'Created table crydesign_funwiki_movies_genres'
+    - builder_table_create_crydesign_funwiki_movies_genres.php
+1.0.27:
+    - 'Updated table crydesign_funwiki_book'
+    - builder_table_update_crydesign_funwiki_books.php
+1.0.28:
+    - 'Created table crydesign_funwiki_person_roles'
+    - builder_table_create_crydesign_funwiki_person_roles.php
+1.0.29:
+    - 'Created table crydesign_funwiki_person_pseudos'
+    - builder_table_create_crydesign_funwiki_person_pseudos.php
+1.0.30:
+    - 'Created table crydesign_funwiki_persons'
+    - builder_table_create_crydesign_funwiki_persons.php
+1.0.31:
+    - 'Created table crydesign_funwiki_person_person_roles'
+    - builder_table_create_crydesign_funwiki_person_person_roles.php
+1.0.32:
+    - 'Updated table crydesign_funwiki_person_person_roles'
+    - builder_table_update_crydesign_funwiki_person_person_roles.php
+1.0.33:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons.php
+1.0.34:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_2.php
+1.0.35:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_3.php
+1.0.36:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_4.php
+1.0.37:
+    - 'Created table crydesign_funwiki_person_person_pseudos'
+    - builder_table_create_crydesign_funwiki_person_person_pseudos.php
+1.0.38:
+    - 'Updated table crydesign_funwiki_person_person_pseudos'
+    - builder_table_update_crydesign_funwiki_person_person_pseudos.php

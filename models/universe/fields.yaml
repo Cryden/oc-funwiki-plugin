@@ -1,13 +1,18 @@
 fields:
-    name:
+    title:
         label: Название
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    original_title:
+        label: Text
         oc.commentPosition: ''
         span: auto
         type: text
     slug:
         label: Slug
         oc.commentPosition: ''
-        span: right
+        span: full
         preset:
             field: name
             type: slug

@@ -1,0 +1,81 @@
+fields:
+    full_name:
+        label: 'Full name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    full_name_original:
+        label: 'Full name (original)'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: full
+        preset:
+            field: full_name
+            type: slug
+        type: text
+    photo:
+        label: 'File upload'
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    country:
+        label: Country
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    birth_date:
+        label: 'Birth date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    death_date:
+        label: 'Death date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    biografy:
+        label: Biografy
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    official_site:
+        label: 'Official Site'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    gallery:
+        label: Gallery
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '50'
+        imageHeight: '50'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    personrole:
+        label: 'Person Role'
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    personpseudos:
+        label: Pseudo
+        span: left
+        type: partial
+        path: field_pseudo

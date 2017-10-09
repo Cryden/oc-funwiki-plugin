@@ -1,0 +1,10 @@
+name: PersonPseudos
+form: $/crydesign/funwiki/models/personpseudo/fields.yaml
+modelClass: Crydesign\FunWiki\Models\PersonPseudo
+defaultRedirect: crydesign/funwiki/personpseudos
+create:
+    redirect: 'crydesign/funwiki/personpseudos/update/:id'
+    redirectClose: crydesign/funwiki/personpseudos
+update:
+    redirect: crydesign/funwiki/personpseudos
+    redirectClose: crydesign/funwiki/personpseudos

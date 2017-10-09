@@ -1,0 +1,4 @@
+title: MoviesGenre
+modelClass: Crydesign\FunWiki\Models\MoviesGenre
+toolbar:
+    buttons: reorder_toolbar

@@ -5,6 +5,17 @@ columns:
     title:
         label: title
         type: text
+        searchable: true
+        sortable: true
     slug:
         label: slug
         type: text
+    original_title:
+        label: original
+        type: text
+    release_date:
+        label: release
+        type: date
+    universe:
+        label: universe
+        type: partial

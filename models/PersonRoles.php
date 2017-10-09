@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Books extends Model
+class PersonRoles extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -24,10 +24,5 @@ class Books extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'crydesign_funwiki_books';
-
-    public $belongsTo = [
-        'universe' => 'Crydesign\FunWiki\Models\Universe'
-    ];
-
+    public $table = 'crydesign_funwiki_person_roles';
 }

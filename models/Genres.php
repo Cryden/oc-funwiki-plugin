@@ -31,7 +31,7 @@ class Genres extends Model
      */
 
     public $attachOne = [
-        'label' => 'System\Models\File'
+        'icon' => 'System\Models\File'
     ];
 
 }

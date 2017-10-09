@@ -1,0 +1,10 @@
+name: Persons
+form: $/crydesign/funwiki/models/person/fields.yaml
+modelClass: Crydesign\FunWiki\Models\Person
+defaultRedirect: crydesign/funwiki/persons
+create:
+    redirect: 'crydesign/funwiki/persons/update/:id'
+    redirectClose: crydesign/funwiki/persons
+update:
+    redirect: crydesign/funwiki/persons
+    redirectClose: crydesign/funwiki/persons

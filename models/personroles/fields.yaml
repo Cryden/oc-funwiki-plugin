@@ -1,0 +1,6 @@
+fields:
+    title:
+        label: 'Person roles'
+        span: full
+        oc.commentPosition: ''
+        type: text

@@ -1,0 +1,11 @@
+fields:
+    full_name:
+        label: 'Full Name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    full_name_original:
+        label: 'Full Name (original)'
+        span: auto
+        oc.commentPosition: ''
+        type: text

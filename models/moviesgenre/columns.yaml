@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+    title:
+        label: title
+        type: text
+    description:
+        label: description
+    icon:
+        label: icon
+        type: partial
+        path: icon
+    slug:
+        label: slug
+        type: text

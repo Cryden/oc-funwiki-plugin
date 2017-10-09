@@ -31,6 +31,7 @@ class Universe extends Model
         'cover' => 'System\Models\File'
     ];
     
+    
     public $hasMany = [
         'books' => 'Crydesign\FunWiki\Models\Books'
     ];

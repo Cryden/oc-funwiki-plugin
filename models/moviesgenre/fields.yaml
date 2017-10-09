@@ -1,39 +1,32 @@
 fields:
     title:
         label: Название
-        span: left
-        dependsOn: {  }
+        oc.commentPosition: ''
+        span: auto
         type: text
-        commentAbove: 'Название жанра'
     slug:
         label: Представление
+        oc.commentPosition: ''
         span: auto
-        disabled: 0
-        dependsOn: {  }
-        trigger:
-            action: empty
-            field: checkbox
-            condition: ''
         preset:
             field: title
             type: slug
         type: text
-        commentAbove: 'Slug there'
     description:
         label: Описание
-        size: large
+        size: ''
         oc.commentPosition: ''
         span: full
         type: richeditor
     icon:
-        label: 'File upload'
-        span: auto
+        label: 'Ярлык (optional)'
         oc.commentPosition: ''
         mode: image
+        imageWidth: '50'
+        imageHeight: '50'
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        imageWidth: '50'
-        imageHeight: '50'
+        span: auto
         type: fileupload

@@ -1,0 +1,10 @@
+name: PersonRoles
+form: $/crydesign/funwiki/models/personroles/fields.yaml
+modelClass: Crydesign\FunWiki\Models\PersonRoles
+defaultRedirect: crydesign/funwiki/personroles
+create:
+    redirect: 'crydesign/funwiki/personroles/update/:id'
+    redirectClose: crydesign/funwiki/personroles
+update:
+    redirect: crydesign/funwiki/personroles
+    redirectClose: crydesign/funwiki/personroles
