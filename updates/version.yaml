@@ -63,3 +63,6 @@
 1.0.22:
     - 'Updated table crydesign_funwiki_news'
     - builder_table_update_crydesign_funwiki_news_5.php
+1.0.23:
+    - 'Updated table crydesign_funwiki_genres'
+    - builder_table_update_crydesign_funwiki_genres_8.php
