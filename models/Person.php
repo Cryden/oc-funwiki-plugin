@@ -48,9 +48,13 @@ class Person extends Model
         'gallery' => 'System\Models\File'
     ];
 
-    public $hasOne = [
-        'person_id' => ['Crydesign\FunWiki\Models\Person']
+
+    public $hasMany = [
+        'person_parent' => [
+            'Crydesign\FunWiki\Models\Person'
+        ]
     ];
+
 
     public $belongsToMany = [
         'personrole' => [
@@ -62,4 +66,5 @@ class Person extends Model
             'table' => 'crydesign_funwiki_person_person_pseudos'
         ]
     ];
+
 }

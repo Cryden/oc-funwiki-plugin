@@ -1,9 +1,17 @@
-person_id:
-    label: Person_id
+person_parent:
+    label: Person
     view:
-        list: $/crydesign/funwiki/models/person/columns1.yaml
-        toolbarButtons: add|remove
+        list: $/crydesign/funwiki/models/person/columns.yaml
+        toolbarButtons: create|add|remove
     manage:
         list: $/crydesign/funwiki/models/person/columns1.yaml
         form: $/crydesign/funwiki/models/person/fields1.yaml
         
+personpseudo:
+    label: Person_pseudo
+    view:
+        list: $/crydesign/funwiki/models/personpseudo/columns.yaml
+        toolbarButtons: create|add|remove
+    manage:
+        list: $/crydesign/funwiki/models/personpseudo/columns.yaml
+        form: $/crydesign/funwiki/models/personpseudo/fields.yaml

@@ -114,3 +114,42 @@
 1.0.39:
     - 'Updated table crydesign_funwiki_persons'
     - builder_table_update_crydesign_funwiki_persons_5.php
+1.0.40:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_6.php
+1.0.41:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_7.php
+1.0.42:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_8.php
+1.0.43:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_9.php
+1.0.44:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_10.php
+1.0.45:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_11.php
+1.0.46:
+    - 'Updated table crydesign_funwiki_persons'
+    - builder_table_update_crydesign_funwiki_persons_12.php
+1.0.47:
+    - 'Created table crydesign_funwiki_person_person'
+    - builder_table_create_crydesign_funwiki_person_person.php
+1.0.48:
+    - 'Updated table crydesign_funwiki_person_person'
+    - builder_table_update_crydesign_funwiki_person_person.php
+1.0.49:
+    - 'Updated table crydesign_funwiki_person_person'
+    - builder_table_update_crydesign_funwiki_person_person_2.php
+1.0.50:
+    - 'Updated table crydesign_funwiki_person_person'
+    - builder_table_update_crydesign_funwiki_person_person_3.php
+1.0.51:
+    - 'Updated table crydesign_funwiki_person_person'
+    - builder_table_update_crydesign_funwiki_person_person_4.php
+1.0.52:
+    - 'Updated table crydesign_funwiki_person_person'
+    - builder_table_update_crydesign_funwiki_person_person_5.php
