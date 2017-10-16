@@ -18,9 +18,9 @@ fields:
             type: slug
         type: text
     universe:
-        label: Universe
-        oc.commentPosition: ''
-        nameFrom: name
-        descriptionFrom: description
+        label: Relation
         span: auto
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
         type: relation
