@@ -1,15 +1,9 @@
 columns:
-    id:
-        label: id
-        type: number
-    name:
+    title:
         label: name
         type: text
         searchable: true
         sortable: true
-    description:
-        label: description
-        type: text
     slug:
         label: slug
         type: text

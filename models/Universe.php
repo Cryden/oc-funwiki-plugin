@@ -27,7 +27,7 @@ class Universe extends Model
     public $table = 'crydesign_funwiki_universes';
 
     public $attachOne = [
-        'logo' => 'System\Models\File',
+        'logo'  => 'System\Models\File',
         'cover' => 'System\Models\File'
     ];
     

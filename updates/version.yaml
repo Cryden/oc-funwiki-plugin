@@ -156,3 +156,6 @@
 1.0.53:
     - 'Updated table crydesign_funwiki_books'
     - builder_table_update_crydesign_funwiki_books_2.php
+1.0.54:
+    - 'Updated table crydesign_funwiki_universes'
+    - builder_table_update_crydesign_funwiki_universes_4.php

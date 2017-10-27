@@ -4,8 +4,8 @@ fields:
         oc.commentPosition: ''
         span: auto
         type: text
-    original_title:
-        label: Text
+    additional_title:
+        label: 'Название (перевод)'
         oc.commentPosition: ''
         span: auto
         type: text
@@ -14,21 +14,21 @@ fields:
         oc.commentPosition: ''
         span: full
         preset:
-            field: name
+            field: title
             type: slug
         type: text
-    logo:
-        label: Логотип
+    cover:
+        label: Обложка
         oc.commentPosition: ''
         mode: image
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        span: left
+        span: auto
         type: fileupload
-    cover:
-        label: Обложка
+    logo:
+        label: Логотип
         oc.commentPosition: ''
         mode: image
         useCaption: true
