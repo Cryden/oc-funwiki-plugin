@@ -9,6 +9,8 @@ navigation:
         label: 'crydesign.funwiki::lang.plugin.name'
         url: crydesign/funwiki/news
         icon: icon-adn
+        iconSvg: 'plugins/crydesign/funwiki/assets/images/logo.png'
+        order: 700
         sideMenu:
             side-menu-item:
                 label: News
