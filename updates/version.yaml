@@ -159,3 +159,5 @@
 1.0.54:
     - 'Updated table crydesign_funwiki_universes'
     - builder_table_update_crydesign_funwiki_universes_4.php
+1.0.55:
+    - 'Add sidebar menu'
