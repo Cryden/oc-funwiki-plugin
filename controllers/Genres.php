@@ -14,5 +14,6 @@ class Genres extends Controller
     public function __construct()
     {
         parent::__construct();
+        BackendMenu::setContext('Crydesign.FunWiki', 'fun-wiki', 'genres');
     }
 }

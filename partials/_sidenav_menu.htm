@@ -13,20 +13,19 @@
             $item->description = '';
         $categories[$item->group][$sideItemCode] = $item;
     }
-?>
-
+?>        
     <ul class="top-level">
     <?php foreach ($categories as $category => $items):
             $collapsed = in_array($category, $collapsedGroups);
     ?>
-        <li data-group-code="<?= e($category) ?>" <?= $collapsed ? 'data-status="collapsed"' : null ?>>
+        <li data-group-code="<?= e($category) ?>" <?= $collapsed ? 'data-status="collapsed"' : 'data-status="expanded"' ?>>
             <div class="group">
                 <h3><?= e($category) ?></h3>
             </div>
             <ul>
             <?php foreach ($items as $item): ?>
                 <li class="<?= BackendMenu::isSideMenuItemActive($item) ? 'active' : null ?>"
-                    data-keywords="<?= e($item->keywords) ?>">
+                    data-keywords="<?= e(trans($item->keywords)) ?>">
                     <a href="<?= $item->url ?>">
                         <i class="<?= $item->icon ?>"></i>
                         <span class="header"><?= e($item->label) ?></span>

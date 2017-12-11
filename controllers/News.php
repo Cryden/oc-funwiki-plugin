@@ -14,7 +14,7 @@ class News extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Crydesign.FunWiki', 'fun-wiki');
+        BackendMenu::setContext('Crydesign.FunWiki', 'fun-wiki', '');
     }
 
     public function formBeforeCreate($model)
