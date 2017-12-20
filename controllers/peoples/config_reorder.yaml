@@ -1,0 +1,4 @@
+title: Peoples
+modelClass: Crydesign\FunWiki\Models\People
+toolbar:
+    buttons: reorder_toolbar

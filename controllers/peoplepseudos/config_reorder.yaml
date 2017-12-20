@@ -1,0 +1,4 @@
+title: PeoplePseudos
+modelClass: Crydesign\FunWiki\Models\PeoplePseudos
+toolbar:
+    buttons: reorder_toolbar

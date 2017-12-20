@@ -1,0 +1,4 @@
+title: PeopleRoles
+modelClass: Crydesign\FunWiki\Models\PeopleRoles
+toolbar:
+    buttons: reorder_toolbar

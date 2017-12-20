@@ -2,13 +2,13 @@ plugin:
     name: 'crydesign.funwiki::lang.plugin.name'
     description: 'Backend fun-wiki.xyz site'
     author: CRYDEsigN
-    icon: oc-icon-certificate
+    icon: oc-icon-adn
     homepage: ''
 navigation:
     fun-wiki:
         label: 'crydesign.funwiki::lang.plugin.name'
         url: crydesign/funwiki/news
-        icon: icon-adn
+        icon: plugins/crydesign/funwiki/assets/images/logo.png
         iconSvg: plugins/crydesign/funwiki/assets/images/logo.png
         order: 700
         sideMenu:
@@ -46,3 +46,13 @@ navigation:
                 label: Persons
                 url: crydesign/funwiki/persons
                 icon: icon-user
+            Peoples:
+                label: Peoples
+                url: crydesign/funwiki/peoples
+                icon: icon-users
+                group: Personality
+            PeopleRoles:
+                label: 'People Roles'
+                url: crydesign/funwiki/peopleroles
+                icon: icon-list-ul
+                group: helpers

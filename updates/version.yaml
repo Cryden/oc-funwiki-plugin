@@ -161,3 +161,27 @@
     - builder_table_update_crydesign_funwiki_universes_4.php
 1.0.55:
     - 'Add sidebar menu'
+1.0.56:
+    - 'Created table crydesign_funwiki_people'
+    - builder_table_create_crydesign_funwiki_people.php
+1.0.57:
+    - 'Updated table crydesign_funwiki_people'
+    - builder_table_update_crydesign_funwiki_people.php
+1.0.58:
+    - 'Created table crydesign_funwiki_people_role'
+    - builder_table_create_crydesign_funwiki_people_role.php
+1.0.59:
+    - 'Created table crydesign_funwiki_people_pseudo'
+    - builder_table_create_crydesign_funwiki_people_pseudo.php
+1.0.60:
+    - 'Created table crydesign_funwiki_people_people_roles'
+    - builder_table_create_crydesign_funwiki_people_people_roles.php
+1.0.61:
+    - 'Updated table crydesign_funwiki_people_people_roles'
+    - builder_table_update_crydesign_funwiki_people_people_roles.php
+1.0.62:
+    - 'Created table crydesign_funwiki_people_people_pseudos'
+    - builder_table_create_crydesign_funwiki_people_people_pseudos.php
+1.0.63:
+    - 'Updated table crydesign_funwiki_people_people_pseudos'
+    - builder_table_update_crydesign_funwiki_people_people_pseudos.php

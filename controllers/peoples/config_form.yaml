@@ -1,0 +1,16 @@
+name: Peoples
+form: $/crydesign/funwiki/models/people/fields.yaml
+modelClass: Crydesign\FunWiki\Models\People
+defaultRedirect: crydesign/funwiki/peoples
+create:
+    title: Добавить запись
+    redirect: 'crydesign/funwiki/peoples/update/:id'
+    redirectClose: crydesign/funwiki/peoples
+    flashSave: Запись добавлена!
+update:
+    title: Изменение записи
+    redirect: crydesign/funwiki/peoples
+    redirectClose: crydesign/funwiki/peoples
+    flashSave: Запись изменена!
+preview:
+    title: Просмотр записи

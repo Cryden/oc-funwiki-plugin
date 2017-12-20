@@ -17,9 +17,6 @@ columns:
     death_date:
         label: death_date
         type: text
-    biografy:
-        label: biografy
-        type: text
     official_site:
         label: official_site
         type: text
