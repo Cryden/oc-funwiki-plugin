@@ -12,47 +12,13 @@ navigation:
         iconSvg: plugins/crydesign/funwiki/assets/images/logo.png
         order: 700
         sideMenu:
-            side-menu-item:
-                label: News
-                url: crydesign/funwiki/news
-                icon: icon-sitemap
-            news-type:
-                label: 'News Type'
-                url: crydesign/funwiki/newstype
-                icon: icon-sitemap
-                group: helpers
-            universes:
-                label: Вселенные
-                url: crydesign/funwiki/universes
-                icon: icon-renren
-            genres:
-                label: Жанры
-                url: crydesign/funwiki/genres
-                icon: icon-tags
-            moviesgenre:
-                label: 'Жанры фильмов'
-                url: crydesign/funwiki/moviesgenre
-                icon: icon-file-movie-o
-            book:
-                label: Книги
-                url: crydesign/funwiki/books
-                icon: icon-book
-            personroles:
-                label: 'Person Roles'
-                url: crydesign/funwiki/personroles
-                icon: icon-users
-                group: helpers
-            persons:
-                label: Persons
-                url: crydesign/funwiki/persons
-                icon: icon-user
             Peoples:
-                label: Peoples
+                label: Люди
                 url: crydesign/funwiki/peoples
                 icon: icon-users
-                group: Personality
+                group: Персоналии
             PeopleRoles:
-                label: 'People Roles'
+                label: 'Вид деятельности'
                 url: crydesign/funwiki/peopleroles
                 icon: icon-list-ul
-                group: helpers
+                group: Справочники

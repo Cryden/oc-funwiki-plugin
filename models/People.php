@@ -1,13 +1,14 @@
 <?php namespace Crydesign\FunWiki\Models;
 
 use Model;
-
+use Backend\Widgets\Form as FormTabs;
 /**
  * Model
  */
 class People extends Model
 {
     use \October\Rain\Database\Traits\Validation;
+
     
     /*
      * Disable timestamps by default.
@@ -49,7 +50,7 @@ class People extends Model
 
     public function filterFields($fields, $context = null)
     {
-        $fields->slug->value = str_slug($fields->first_name->value.' '.$fields->last_name->value);
+        //$fields->slug->value = str_slug($fields->first_name->value.' '.$fields->last_name->value);
     }
 
 }
