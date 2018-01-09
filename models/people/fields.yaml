@@ -58,30 +58,3 @@ fields:
         type: taglist
         mode: relation
         nameFrom: role
-tabs:
-    fields:
-        text1:
-            label: Text
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'Tab 1'
-        number1:
-            label: Number
-            oc.commentPosition: ''
-            span: auto
-            type: number
-            tab: 'Tab 1'
-secondaryTabs:
-    fields:
-        text2:
-            label: Text
-            oc.commentPosition: ''
-            span: auto
-            type: text
-            tab: 'Tab 1'
-        checkbox1:
-            label: Checkbox
-            span: auto
-            type: checkbox
-            tab: 'Tab 1'
