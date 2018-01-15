@@ -3,13 +3,14 @@
 use Str;
 use Model;
 use Backend\Widgets\Form as FormTabs;
+
 /**
  * Model
  */
 class People extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-
+    use \October\Rain\Database\Traits\Sluggable;
     
     /*
      * Disable timestamps by default.
@@ -21,6 +22,10 @@ class People extends Model
      * Validation
      */
     public $rules = [
+    ];
+
+    protected $slugs = [
+        'slug' => ['first_name', 'last_name']
     ];
 
     /**
@@ -51,12 +56,7 @@ class People extends Model
 
     public function filterFields($fields, $context = null)
     {
-        $fields->slug->value = str_slug($fields->first_name->value.' '.$fields->last_name->value);
+        //$fields->slug->value = str_slug($fields->first_name->value.' '.$fields->last_name->value);
     }
-
-    public function beforeSave()
-    {
-        $this->slug = Str::slug($this->first_name.'-'.$this->last_name);
-    }   
 
 }
