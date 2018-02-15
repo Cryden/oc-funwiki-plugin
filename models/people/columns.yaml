@@ -1,10 +1,9 @@
 columns:
-    first_name:
+    title:
         label: Name
         type: text
         searchable: true
         sortable: true
-        select: 'concat(first_name, '' '', last_name)'
     slug:
         label: Slug
         type: text

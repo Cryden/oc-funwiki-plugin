@@ -1,60 +1,23 @@
 fields:
-    first_name:
-        label: 'First name'
-        oc.commentPosition: ''
-        span: auto
-        cssClass: first_name
+    main:
+        label: Основное
+        span: full
+        type: section
+    title:
+        label: Персона
+        span: full
+        placeholder: 'Фамилия Имя Отчество'
         type: text
-    first_name_origin:
-        label: 'First name origin'
-        oc.commentPosition: ''
-        span: auto
-        type: text
-    last_name:
-        label: 'Last name'
-        oc.commentPosition: ''
-        span: auto
-        cssClass: last_name
-        type: text
-    last_name_origin:
-        label: 'Last name origin'
-        oc.commentPosition: ''
-        span: auto
-        type: text
-    full_name:
-        label: 'Full name'
-        oc.commentPosition: ''
-        span: auto
-        type: text
-    full_name_origin:
-        label: 'Full name origin'
-        oc.commentPosition: ''
-        span: auto
-        type: text
+    _slug:
+        label: 'Изменить постоянную ссылку'
+        span: full
+        type: checkbox
     slug:
-        label: Slug
+        label: 'Постоянная ссылка'
         oc.commentPosition: ''
         span: full
-        cssClass: ''
-        disabled: 1
-        dependsOn:
-            - first_name
-            - last_name
-        trigger:
-            action: enable
-            field: _edit_slug
-            condition: checked
-        preset:
-            type: slug
         type: text
-    _edit_slug:
-        label: 'Изменить ссылку'
-        span: left
-        default: false
-        cssClass: ''
-        type: switch
-    role:
-        label: Деятельность
-        type: taglist
-        mode: relation
-        nameFrom: role
+        trigger:
+            action: show
+            field: _slug
+            condition: checked

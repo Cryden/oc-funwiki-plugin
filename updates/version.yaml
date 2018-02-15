@@ -188,3 +188,9 @@
 1.0.64:
     - 'Updated table crydesign_funwiki_people'
     - builder_table_update_crydesign_funwiki_people_2.php
+1.0.65:
+    - 'Updated table crydesign_funwiki_people'
+    - builder_table_update_crydesign_funwiki_people_3.php
+1.0.66:
+    - 'Updated table crydesign_funwiki_books'
+    - builder_table_update_crydesign_funwiki_books_3.php

@@ -36,9 +36,6 @@ class Plugin extends PluginBase
                     Config::get('app.url')
                 );
             }
-            //$controller->addJs('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js');
-            //$controller->addJs('/plugins/crydesign/funwiki/assets/vendor/bootstrap/js/bootstrap.min.js');
-            //$controller->addCss('/plugins/crydesign/funwiki/assets/vendor/bootstrap/css/bootstrap-grid.min.css');
         });
     }
 

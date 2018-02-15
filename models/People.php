@@ -39,7 +39,7 @@ class People extends Model
             'table' => 'crydesign_funwiki_people_people_roles'
         ],
         'pseudo' => [
-            'Crydesign\FunWiki\Models\PeoplePseudos',
+            'Crydesign\FunWiki\Models\People',
             'table' => 'crydesign_funwiki_people_people_pseudos'
         ]
     ];

@@ -22,3 +22,7 @@ navigation:
                 url: crydesign/funwiki/peopleroles
                 icon: icon-list-ul
                 group: Справочники
+            side-menu-item:
+                label: 'Menu Item'
+                url: crydesign/funwiki/books
+                icon: icon-sitemap
